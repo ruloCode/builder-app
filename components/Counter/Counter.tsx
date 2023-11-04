@@ -4,6 +4,8 @@ import styles from "./styles.module.css";
 
 interface CounterProps {
   initialCount?: number;
+  initialValue?: number;
+  className?: any;
 }
 
 function Counter({ initialCount = 99 }: CounterProps) {
