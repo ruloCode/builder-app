@@ -1,9 +1,13 @@
 import React from 'react'
-import MyComponent from '../components/MyComponent'
+import Apple1 from '../components/apple1'
 
 const page = () => {
   return (
-    <MyComponent />
+    <div>
+      <Apple1 />
+      {/* <Pajaros /> */}
+      {/* <Pajariando /> */}
+    </div>
   )
 }
 
